@@ -1,0 +1,80 @@
+<!DOCTYPE html><html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LagCoin 🐢</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0e0e0e;
+      color: #d0ffd0;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }header {
+  padding: 20px;
+}
+
+header img {
+  width: 100px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #8bf78b;
+}
+
+section {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.button-coming {
+  background-color: #444;
+  color: #ccc;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  margin-top: 20px;
+  cursor: not-allowed;
+}
+
+.walker {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 80px;
+  animation: walk 15s linear infinite;
+}
+
+@keyframes walk {
+  0% { left: -100px; }
+  100% { left: 100%; }
+}
+
+  </style>
+</head>
+<body>  <header>
+    <img src="https://lagcoin.github.io/LagCoin/logo.png" alt="LagCoin Logo">
+    <h1>LagCoin</h1>
+    <p><em>„Powoli do przodu, ale zawsze z zyskiem”</em></p>
+  </header>  <section>
+    <h2>🐢 Misja</h2>
+    <p>Zbudować najbardziej opóźnioną, ale uroczą społeczność kryptowalutową. W LagCoin nie śpieszymy się – inwestujemy z luzem i humorem.</p><h2>🚀 Wizja</h2>
+<p>Przyciągać uwagę, wywoływać uśmiech i dawać ludziom chwilę wytchnienia od wyścigu byków i niedźwiedzi. #LagArmy</p>
+
+<h2>📊 Tokenomia</h2>
+<ul style="text-align: left;">
+  <li><strong>Całkowita podaż:</strong> 1 000 000 000 LAG</li>
+  <li><strong>Pre-sale:</strong> 25%</li>
+  <li><strong>Społeczność:</strong> 40%</li>
+  <li><strong>Marketing & Memy:</strong> 20%</li>
+  <li><strong>Zespół (zablokowane):</strong> 15%</li>
+</ul>
+
+<button class="button-coming">Buy Now... jak przestanie lagować</button>
+
+  </section>  <img class="walker" src="https://lagcoin.github.io/LagCoin/turtle_walk.png" alt="LagCoin Turtle Walking"></body>
+</html>
